@@ -1,0 +1,16 @@
+<html>
+<body>
+<form method="POST" action="">
+        {% csrf_token %}
+        <td>
+          Employee name
+        </td>
+        <td>
+          {{ stu.fname }}
+        </td>
+  <br>
+		<td colspan="2" align="center">
+			<button type="submit">Submit</button>
+</form>
+</body>
+</html>
